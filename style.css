@@ -211,3 +211,65 @@
     color: #fff;
     background-image: linear-gradient(135deg, #814096 25%,#F83292 75%);
 }
+
+.squre div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(135deg,#814096 25%,#F83292 75%) 1;
+}
+
+.squre div:nth-child(1){
+    top: 82%;
+    left: 2%;
+    animation: animate 11s linear infinite;
+}
+
+.squre div:nth-child(2){
+    top: 90%;
+    left: 5%;
+    animation: animate 12s linear infinite;
+}
+
+.squre div:nth-child(3){
+    top: 95%;
+    left: 5%;
+    animation: animate 5s linear infinite;
+}
+
+.squre div:nth-child(4){
+    top: 75%;
+    left: 10%;
+    animation: animate 16s linear infinite;
+}
+
+.squre div:nth-child(5){
+    top: 85%;
+    left: 15%;
+    animation: animate 7s linear infinite;
+}
+
+.squre div:nth-child(6){
+    top: 65%;
+    left: 5%;
+    animation: animate 9s linear infinite;
+}
+
+.squre div:nth-child(7){
+    top: 95%;
+    left: 0;
+    animation: animate 13s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
