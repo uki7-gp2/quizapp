@@ -1,7 +1,7 @@
-Token Key
+Access Token 
 
-USE THIS
+Use This
 
 Important
 
-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
+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
